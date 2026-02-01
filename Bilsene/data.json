@@ -1,0 +1,128 @@
+[
+  {
+    "id": "1",
+    "baslik": "Yabancı Ünlüler",
+    "kelimeler": [
+      "Leonardo DiCaprio", "Taylor Swift", "Brad Pitt", "Scarlett Johansson", "Tom Cruise",
+      "Selena Gomez", "Johnny Depp", "Zendaya", "Keanu Reeves", "Rihanna",
+      "Cillian Murphy", "Margot Robbie", "Billie Eilish", "Dwayne Johnson", "Jenna Ortega",
+      "Timothée Chalamet", "Lady Gaga", "Ryan Reynolds", "Angelina Jolie", "Robert Downey Jr.",
+      "Chris Hemsworth", "Ariana Grande", "Emma Stone", "Will Smith", "Beyoncé",
+      "Tom Holland", "Jennifer Lawrence", "George Clooney", "Miley Cyrus", "Justin Bieber",
+      "Anne Hathaway", "Vin Diesel", "Katy Perry", "Henry Cavill", "Shakira",
+      "Matt Damon", "Adele", "Jason Statham", "Nicole Kidman", "Drake",
+      "Ben Affleck", "Gal Gadot", "The Weeknd", "Julia Roberts", "Travis Scott",
+      "Sandra Bullock", "Elon Musk", "Kim Kardashian", "Kylie Jenner", "Snoop Dogg"
+    ]
+  },
+  {
+    "id": "2",
+    "baslik": "İstanbul",
+    "kelimeler": [
+      "Kız Kulesi", "Galata Köprüsü", "Vapur Sesi", "Pierre Loti", "İstiklal Caddesi",
+      "Mısır Çarşısı", "Yedikule Zindanları", "Çamlıca Tepesi", "Moda Sahili", "Belgrad Ormanı",
+      "Balat Evleri", "Rumeli Hisarı", "Kanlıca Yoğurdu", "Kapalıçarşı", "Ortaköy Camii",
+      "Karaköy Güllüoğlu", "Gülhane Parkı", "Sultanahmet Meydanı", "Haydarpaşa Garı", "Büyükada",
+      "15 Temmuz Şehitler Köprüsü", "Yerebatan Sarnıcı", "Topkapı Sarayı", "Dolmabahçe Sarayı", "Galata Kulesi",
+      "Eminönü Balık Ekmek", "Maçka Parkı", "Nişantaşı", "Bağdat Caddesi", "Metrobüs",
+      "Marmaray", "Ayasofya", "Taksim Meydanı", "Boğaz Turu", "Martı Sesi",
+      "Simit Sarayı", "Emirgan Korusu", "Bebek Sahili", "Anadolu Hisarı", "Beylerbeyi Sarayı",
+      "Fener Rum Patrikhanesi", "Süleymaniye Camii", "Müze Gazhane", "Kuzguncuk", "Atatürk Arboretumu",
+      "Polonezköy", "Tarihi Yarımada", "Kadıköy Boğa Heykeli", "Akbil Sesi", "Lüfer"
+    ]
+  },
+  {
+    "id": "3",
+    "baslik": "Süper Kahramanlar",
+    "kelimeler": [
+      "Iron Man", "Batman", "Joker", "Spider-Man", "Thanos",
+      "Wonder Woman", "Deadpool", "Scarlet Witch", "Thor", "Wolverine",
+      "Captain America", "Doctor Strange", "Black Widow", "Hulk", "The Flash",
+      "Aquaman", "Green Lantern", "Venom", "Black Panther", "Superman",
+      "Loki", "Ant-Man", "Hawkeye", "Groot", "Rocket Raccoon",
+      "Star-Lord", "Gamora", "Daredevil", "Punisher", "Vision",
+      "Magneto", "Professor X", "Cyclops", "Jean Grey", "Storm",
+      "Harley Quinn", "Bane", "Lex Luthor", "Robin", "Nightwing",
+      "Shazam", "Dr. Octopus", "Green Goblin", "Mystique", "Winter Soldier",
+      "Falcon", "Moon Knight", "Ghost Rider", "Silver Surfer", "Blade"
+    ]
+  },
+  {
+    "id": "4",
+    "baslik": "Markalar",
+    "kelimeler": [
+      "Tesla", "Ferrari", "Porsche", "Apple", "Nvidia",
+      "Rolex", "Starbucks", "Mercedes", "PlayStation", "Nintendo",
+      "BMW", "Red Bull", "Samsung", "Louis Vuitton", "Amazon",
+      "Disney", "Microsoft", "Harley Davidson", "IKEA", "Netflix",
+      "Coca-Cola", "Pepsi", "McDonald's", "Burger King", "Nike",
+      "Adidas", "Puma", "Gucci", "Prada", "Balenciaga",
+      "Toyota", "Honda", "Ford", "Lamborghini", "Bugatti",
+      "Google", "Facebook (Meta)", "Spotify", "YouTube", "TikTok",
+      "Zara", "H&M", "Versace", "Chanel", "Dior",
+      "Lego", "Canon", "Sony", "Xbox", "Intel", "AMD"
+    ]
+  },
+  {
+    "id": "5",
+    "baslik": "Tiktok Akımları",
+    "kelimeler": [
+      "POV", "Get Ready With Me", "ASMR Mutfağı", "Roman Havası", "Transition",
+      "Glow Up", "Storytime", "Manifesting", "Duet", "Unboxing",
+      "Sokak Röportajı", "Dance Challenge", "Old Money Style", "Clean Girl", "Life Hacks",
+      "Lip Sync", "Day in My Life", "Outfit of the Day", "Food Review", "Prank",
+      "NPC Yayını", "CapCut Edit", "Tiktok Dansı", "Makyaj Tüyosu", "Kargo Açılımı",
+      "Spor Salonu (Gymrat)", "Ev Turu", "Sabah Rutinim", "Akşam Rutinim", "Study with Me",
+      "BookTok", "Travel Vlog", "Couple Goals", "Fit Check", "Skincare Routine",
+      "Viral Ürün Denemesi", "Tadım Testi", "Komik Kedi Videoları", "Fail Videoları", "Challenge",
+      "Soru Cevap", "Canlı Yayın", "Hediyeleşme", "Alışveriş (Haul)", "Mini Vlog"
+    ]
+  },
+  {
+    "id": "6",
+    "baslik": "Dünya Mutfağı",
+    "kelimeler": [
+      "Sushi", "Taco", "Pizza Napoletana", "Pad Thai", "Croissant",
+      "Ramen", "Falafel", "Lasagna", "Dim Sum", "Paella",
+      "Poutine", "Gelato", "Humus", "Tiramisu", "Guacamole",
+      "Fish and Chips", "Risotto", "Baklava", "Ratatouille", "Tacos al Pastor",
+      "Hamburger", "Cheesecake", "Macaron", "Donut", "Curry (Köri)",
+      "Kebab", "Döner", "Lahmacun", "Pide", "Mantı",
+      "Waffle", "Pancake", "Churros", "Burrito", "Quesadilla",
+      "Nachos", "Spring Rolls", "Noodle", "Steak", "Barbekü (BBQ)",
+      "Caesar Salad", "Gazpacho", "Fondue", "Goulash", "Mochi",
+      "Bubble Tea", "Espresso", "Cappuccino", "Hot Dog", "Bagel"
+    ]
+  },
+  {
+    "id": "7",
+    "baslik": "Yabancı Rapçiler",
+    "kelimeler": [
+      "Eminem", "2Pac", "The Notorious B.I.G.", "Dr. Dre", "Snoop Dogg",
+      "Kendrick Lamar", "Drake", "Kanye West", "Travis Scott", "Jay-Z",
+      "Post Malone", "Ice Cube", "50 Cent", "J. Cole", "Lil Wayne",
+      "Asap Rocky", "Central Cee", "Pop Smoke", "Doja Cat", "Cardi B",
+      "Nicki Minaj", "Future", "21 Savage", "XXXTentacion", "Juice WRLD",
+      "Wiz Khalifa", "Tyga", "Migos", "Quavo", "Offset",
+      "Playboi Carti", "Lil Uzi Vert", "Jack Harlow", "Megan Thee Stallion", "Ice Spice",
+      "Tyler, The Creator", "Childish Gambino", "Mac Miller", "Logic", "Machine Gun Kelly",
+      "Pitbull", "Sean Paul", "Flo Rida", "Busta Rhymes", "DMX"
+    ]
+  },
+  {
+    "id": "8",
+    "baslik": "Yabancı Dizi ve Filmler",
+    "kelimeler": [
+      "The Dark Knight", "Stranger Things", "Game of Thrones", "Pulp Fiction", "The Last of Us",
+      "Inception", "Chernobyl", "Succession", "The Bear", "Parasite",
+      "The Matrix", "Peaky Blinders", "Euphoria", "Fight Club", "The Crown",
+      "Interstellar", "Breaking Bad", "The White Lotus", "Forrest Gump", "The Boys",
+      "Squid Game", "La Casa de Papel", "Black Mirror", "Friends", "The Office",
+      "How I Met Your Mother", "Brooklyn Nine-Nine", "Rick and Morty", "The Simpsons", "Avatar (Film)",
+      "Lord of the Rings", "Harry Potter", "Star Wars", "Godfather", "Gladiator",
+      "Oppenheimer", "Barbie", "Wednesday", "Bridgerton", "Better Call Saul",
+      "Vikings", "Walking Dead", "Dexter", "Prison Break", "Lost",
+      "Sherlock", "House of Cards", "Narcos", "True Detective", "Fargo"
+    ]
+  }
+]
