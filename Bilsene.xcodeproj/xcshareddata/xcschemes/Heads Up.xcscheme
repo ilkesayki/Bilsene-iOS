@@ -18,7 +18,7 @@
                BlueprintIdentifier = "3C40E56A2F26861900590635"
                BuildableName = "Bilsene.app"
                BlueprintName = "Bilsene"
-               ReferencedContainer = "container:Heads Up.xcodeproj">
+               ReferencedContainer = "container:Bilsene.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,7 +47,7 @@
             BlueprintIdentifier = "3C40E56A2F26861900590635"
             BuildableName = "Bilsene.app"
             BlueprintName = "Bilsene"
-            ReferencedContainer = "container:Heads Up.xcodeproj">
+            ReferencedContainer = "container:Bilsene.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -64,7 +64,7 @@
             BlueprintIdentifier = "3C40E56A2F26861900590635"
             BuildableName = "Bilsene.app"
             BlueprintName = "Bilsene"
-            ReferencedContainer = "container:Heads Up.xcodeproj">
+            ReferencedContainer = "container:Bilsene.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

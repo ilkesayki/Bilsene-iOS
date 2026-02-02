@@ -6,14 +6,31 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		3C44CAF52F2FB8B700E8A116 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C44CAF02F2FB8B700E8A116 /* Assets.xcassets */; };
+		3C44CAF62F2FB8B700E8A116 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 3C44CAF22F2FB8B700E8A116 /* data.json */; };
+		3C44CAF72F2FB8B700E8A116 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C44CAF42F2FB8B700E8A116 /* Launch Screen.storyboard */; };
+		3C44CAF82F2FB8B700E8A116 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C44CAF12F2FB8B700E8A116 /* ContentView.swift */; };
+		3C44CAF92F2FB8B700E8A116 /* BilseneApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C44CAF32F2FB8B700E8A116 /* BilseneApp.swift */; };
+		3C44CAFE2F2FD36C00E8A116 /* GameModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C44CAFD2F2FD36C00E8A116 /* GameModels.swift */; };
+		3C44CB002F2FD3AC00E8A116 /* GameEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C44CAFF2F2FD3A800E8A116 /* GameEngine.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		3C40E56B2F26861900590635 /* Bilsene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bilsene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C44CAF02F2FB8B700E8A116 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3C44CAF12F2FB8B700E8A116 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3C44CAF22F2FB8B700E8A116 /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		3C44CAF32F2FB8B700E8A116 /* BilseneApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BilseneApp.swift; sourceTree = "<group>"; };
+		3C44CAF42F2FB8B700E8A116 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		3C44CAFD2F2FD36C00E8A116 /* GameModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameModels.swift; sourceTree = "<group>"; };
+		3C44CAFF2F2FD3A800E8A116 /* GameEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameEngine.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3C40E56D2F26861900590635 /* Heads Up */ = {
+		3C40E56D2F26861900590635 /* Views */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Heads Up";
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +49,7 @@
 		3C40E5622F26861900590635 = {
 			isa = PBXGroup;
 			children = (
-				3C40E56D2F26861900590635 /* Heads Up */,
+				3C44CAFA2F2FD2DE00E8A116 /* Bilsene */,
 				3C40E56C2F26861900590635 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +60,37 @@
 				3C40E56B2F26861900590635 /* Bilsene.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3C44CAFA2F2FD2DE00E8A116 /* Bilsene */ = {
+			isa = PBXGroup;
+			children = (
+				3C44CAFC2F2FD31300E8A116 /* Models */,
+				3C44CAFB2F2FD30A00E8A116 /* ViewModels */,
+				3C40E56D2F26861900590635 /* Views */,
+				3C44CAF02F2FB8B700E8A116 /* Assets.xcassets */,
+				3C44CAF42F2FB8B700E8A116 /* Launch Screen.storyboard */,
+				3C44CAF22F2FB8B700E8A116 /* data.json */,
+				3C44CAF32F2FB8B700E8A116 /* BilseneApp.swift */,
+				3C44CAF12F2FB8B700E8A116 /* ContentView.swift */,
+			);
+			path = Bilsene;
+			sourceTree = "<group>";
+		};
+		3C44CAFB2F2FD30A00E8A116 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3C44CAFF2F2FD3A800E8A116 /* GameEngine.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3C44CAFC2F2FD31300E8A116 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C44CAFD2F2FD36C00E8A116 /* GameModels.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +109,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				3C40E56D2F26861900590635 /* Heads Up */,
+				3C40E56D2F26861900590635 /* Views */,
 			);
 			name = Bilsene;
 			packageProductDependencies = (
@@ -85,7 +133,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3C40E5662F26861900590635 /* Build configuration list for PBXProject "Heads Up" */;
+			buildConfigurationList = 3C40E5662F26861900590635 /* Build configuration list for PBXProject "Bilsene" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -109,6 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C44CAF52F2FB8B700E8A116 /* Assets.xcassets in Resources */,
+				3C44CAF62F2FB8B700E8A116 /* data.json in Resources */,
+				3C44CAF72F2FB8B700E8A116 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C44CAF82F2FB8B700E8A116 /* ContentView.swift in Sources */,
+				3C44CAFE2F2FD36C00E8A116 /* GameModels.swift in Sources */,
+				3C44CAF92F2FB8B700E8A116 /* BilseneApp.swift in Sources */,
+				3C44CB002F2FD3AC00E8A116 /* GameEngine.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +314,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -268,7 +324,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ilke.Heads-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = ilke.Bilsene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -304,6 +360,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -313,7 +370,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 26.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "ilke.Heads-Up";
+				PRODUCT_BUNDLE_IDENTIFIER = ilke.Bilsene;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SDKROOT = auto;
@@ -332,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3C40E5662F26861900590635 /* Build configuration list for PBXProject "Heads Up" */ = {
+		3C40E5662F26861900590635 /* Build configuration list for PBXProject "Bilsene" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3C40E5742F26861A00590635 /* Debug */,
